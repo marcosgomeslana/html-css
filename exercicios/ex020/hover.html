@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Hover</title>
+
+    <style>
+        body{
+            font-family:'Courier New', Courier, monospace;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: inline-block;
+            background-color: greenyellow;
+            color:blueviolet;
+        }
+
+        div:hover{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Palavra Misteriosa</h1>
+    <p>Passo o mause sobre o texto abaixo</p>
+    <div>
+        Esse texto aqui<br>
+        <p>SURPRESA!!!</p>
+    </div>
+    <p>Fim do texto</p>
+    
+</body>
+</html>

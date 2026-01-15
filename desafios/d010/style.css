@@ -1,0 +1,177 @@
+@charset "UTF-8";
+@font-face{
+    font-family: Android;
+    src: url('fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+    font-style:normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+ body{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #84e1ad;
+    margin: 0px;
+}
+
+header{
+    padding: 10px;
+    background-image:linear-gradient(to bottom, #3cd781, rgba(0, 0, 0, 0.702));
+    color: white;
+    font-weight: normal;
+}
+
+header > h1{
+    text-transform:uppercase;
+    text-align: center;
+
+}
+
+header > p{
+    text-align: center;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    
+    width: 1000px;
+    margin: 0px auto 0px auto;
+    background-color: white;
+    text-indent: 30px;
+
+
+}
+
+
+
+
+
+img{
+    display: block;
+}
+article{
+    margin: auto;
+}
+
+.titulo-background{
+    background-image:linear-gradient(to right, #c5ebd5,  #ffffff);
+    margin: 0px 20px 0px 20px;
+}
+
+article > h1, h2{
+    color:  #1a5c38;
+    font-family: Android;
+}
+
+article > img{
+    margin: auto;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    
+    
+}
+
+#video{
+    background-color: #1a5c38;
+   
+}
+
+
+aside{
+     background-color: #c5ebd6;
+     color: black;
+     border-radius: 0px 0px 10px 10px;
+
+     
+}
+
+article > p{
+    padding: 20px;
+
+}
+article > h1{
+    margin: 0px;
+    padding-top: 20px;
+}
+
+main > p{
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+#sesao-dois > p{
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+
+
+ aside > p {
+    margin: 0px;
+    padding: 10px;
+    text-indent: 30px;
+ }
+
+
+#sesao-dois{
+    background-color: #2fa866;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 950px;
+    margin: auto;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.439);
+    
+}
+span{
+    margin-right: 13em;
+}
+span > ul{
+    display: inline-block;
+}
+
+.link-externo-conteudo{
+    color: #32704e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul{
+   list-style-type: "✔ ";
+}
+
+
+footer > p{
+    margin: 0px;
+}
+
+.link-footer{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer{
+    background-color: #1a5c38;
+    padding: 10px;
+    color: white;
+    text-align: center;
+
+}

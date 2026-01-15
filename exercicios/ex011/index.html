@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Trabalhando com Mídias em HTML5</h1>
+    <p>Use esse site em diferentes telas para testar a responsividade das imagens.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto em tamanho G">
+    </picture>
+
+    <h1>Trabalhando com audios em HTML5</h1>
+    <h4>Ai vai um Rock do bom.</h4>
+    <audio src="midia/granite-sting-ethan-meixsell.mp3" preload="metadata" controls>
+        <source src="midia/granite-sting-ethan-meixsell.mp3" type="audio/mpeg">
+        <source src="midia/granite-sting-ethan-meixsell.ogg" type="audio/ogg">
+        <source src="midia/granite-sting-ethan-meixsell.wav" type="audio/wav">
+        <p>Caso não consiga reproduzir, baixe <a href="midia/granite-sting-ethan-meixsell.mp3">clicando aqui para baixar em MP3.</a></p>
+    </audio>
+
+    <h4>Que tal um podcast do Guanabara</h4>
+
+    <audio src="midia/guanacast-33.mp3" preload="metadata" controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="ogg">
+        <source src="midia/guanacast-33.wav" type="wav">
+        <p>Falha ao reproduzir o audio <a href="midia/guanacast-33.mp3">clique aqui para baixar o audio em MP3</a></p>
+
+    </audio>
+</body>
+</html>

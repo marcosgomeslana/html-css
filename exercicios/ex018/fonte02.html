@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baixando fontes externas</title>
+    <style>
+        @font-face{
+            font-family: Maria;
+            src: url('fonts/Puffy\ Love.ttf'), format(truetype);
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /*
+            Tipor de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded - opentype
+            - truetype - oot (apple advanced)
+            - typography
+            - svg
+        
+        */
+
+
+        h1{
+            font-family: Maria;
+            font-size: 5em;
+            background-color: rgb(246, 183, 220);
+            color: rgb(233, 8, 8);
+            width: 600px;
+            padding: 10px;
+            padding-bottom: 2px;
+            border-radius: 10px;
+            font-weight: lighter;
+
+        }
+
+        .verde{
+            color: green
+        }
+    </style>
+</head>
+<body>
+    <h1><div class="verde" style="display: inline;">" </div>Passando aqui para dizer que te amo novamente!<div class="verde" style="display: inline;"> "</div></h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi dolorum, repellendus accusamus consequuntur nobis ullam consectetur nemo totam esse officiis, magni non sint harum mollitia, quod magnam illo neque nulla?</p>
+</body>
+</html>

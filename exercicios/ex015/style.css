@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*Estamos trabalhando com o padrão de caracteres UTF-8*/
+
+body{
+    background-color:lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: darkblue;
+    background-color:crimson;
+}
+h2{
+    color: darkred;
+    background-color: cornflowerblue;
+}

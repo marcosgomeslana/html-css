@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+        
+        /* SELETORES PERSONALIZADOS
+           # é id
+           class é .
+           : é pseudoclass
+           :: é pseudoelemento
+           > é filhos de um elemento
+        
+        */
+
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size:20px;
+        }
+
+        li{
+            list-style: none;
+        }
+
+        a{
+            color: green;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color:rgb(162, 100, 100);
+        }
+
+        a:hover{
+            text-decoration: underline;
+
+        }
+
+        a:active{
+            color:rgb(240, 16, 184)
+        }
+
+        a::before{
+            content: '..';
+            color:rgb(132, 0, 255);
+            font-weight: bolder;
+            font-size: 30px;
+        }
+
+        a::after{
+            content: '  LINK';
+            color:rgba(162, 140, 182, 0.301);
+            font-weight: bolder;
+            font-size: 30px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personlizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/15%20-Seletores%20personalizados.pdf" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/cursoemvideo" target="_blank">Canal Cuso em Vídeo</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank">Site do Curso em Vídeo</a></li>
+    </ul>
+    
+</body>
+</html>
