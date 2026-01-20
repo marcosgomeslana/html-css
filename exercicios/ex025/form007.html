@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iuf">UF:</label>
+            <select name="ufs" id="iufs">
+                <optgroup label="Região Sudeste">
+                    <option value="MG">MG</option>
+                    <option value="RJ">RJ</option>
+                    <option value="SP">SP</option>
+                    <option value="ES">ES</option>
+                </optgroup>
+                <optgroup label="Região Sul" >
+                    <option value="PR">PR</option>
+                    <option value="SC">SC</option>
+                    <option value="RS">RS</option>
+
+                </optgroup>
+            </select>
+            
+        </p>
+
+        <p>
+            <label for="ifrutas">Frutas:</label>
+            <input type="text" name="frutas" id="ifrutas" list="opt">
+
+            <datalist id="opt">
+                <option value="Morango"></option>
+                <option value="Banana"></option>
+                <option value="Melancia"></option>
+
+            </datalist>
+
+        </p>
+
+        <p>
+            <label for="imsg">Descrição:</label><br>
+            <textarea name="msg" id="imsg" cols="20" rows="5"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
