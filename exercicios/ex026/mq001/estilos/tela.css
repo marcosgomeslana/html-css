@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* Estilo para telas */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+header{
+    background-color: rgb(253, 253, 88);
+    text-align: center;
+}
+header > h1{
+    padding: 20px;
+    font-size: 3em;
+    
+}
+
+menu{
+    background-color: rgb(203, 203, 2);
+    padding: 10px;
+}
+
+menu li{
+    display: inline-block;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+article{
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+
+}
+
+h1, p{
+    padding: 10px;
+}
