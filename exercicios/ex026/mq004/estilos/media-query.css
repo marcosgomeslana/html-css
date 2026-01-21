@@ -1,1 +1,82 @@
 @charset "UTF-8";
+
+/* Configurações para diferentes medias */
+
+/* Typical Device Brakepoints
+------------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768x até 992px
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200px
+
+*/
+
+
+@media print{
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+    main{
+        border: 1px solid black;
+    }
+    
+    main h1{
+        text-shadow: none;
+        color: black;
+    }
+
+     #print{
+        display: block;
+    }
+    #tv, #tablet, #phone, #pc{
+        display: none;
+    }
+
+    main::after{
+        content:'Projeto de media queries finalizado e partes...';
+        text-decoration: overline;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: url('../imagens/back-tablet.jpg');
+    }
+
+    #tablet{
+        display: block;
+    }
+    #tv, #print, #phone, #pc{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url('../imagens/back-pc.jpg');
+    }
+
+    #pc{
+        display: block;
+    }
+    #tv, #print, #phone, #tablet{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background-image: url('../imagens/back-tv.jpg');
+    }
+
+    #tv{
+        display: block;
+    }
+    #pc, #print, #phone, #tablet{
+        display: none;
+    }
+
+}
+
